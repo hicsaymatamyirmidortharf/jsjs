@@ -21,6 +21,7 @@
             HotelWindow.open(50);
             HotelWindow.start("cubby");
             Void(0);
+            alert("")
 
         }
         if (Character.dailyTasks.crafts.finished <= 0) {
