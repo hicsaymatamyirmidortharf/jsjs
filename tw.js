@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
 // @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
-// @include https://tr7.*.*/*
+// @include      https://tr7.*.*/*
 // @grant        none
 // ==/UserScript==
 
