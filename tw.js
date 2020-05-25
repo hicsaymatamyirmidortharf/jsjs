@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tw-AutoTask
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
 // @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
@@ -38,7 +38,7 @@
 
 
 
-    }, 3000);
+    }, 600000);
 
     alert(Character.lastDied);
 
