@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         tw-AutoTask
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
+// @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
 // @include https://tr7.*.*/game.php*
 // @grant        none
 // ==/UserScript==
