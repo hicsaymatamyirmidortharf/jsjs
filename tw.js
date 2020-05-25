@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tw-AutoTask
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
 // @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
