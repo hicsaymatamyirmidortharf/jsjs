@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tw-AutoTask
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
 // @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
@@ -17,11 +17,13 @@
     alert(Character.energy);
 
     setInterval(function() {
+        let date = new Date();
+        alert( date.getHours() + "interval fonk. çalıştı. " );
         if (Character.energy < 12 && TaskQueue.queue.length <= 2) {
             HotelWindow.open(50);
             HotelWindow.start("cubby");
             Void(0);
-            alert("")
+            alert("H Kuyruğa eklendi.")
 
         }
         if (Character.dailyTasks.crafts.finished <= 0) {
