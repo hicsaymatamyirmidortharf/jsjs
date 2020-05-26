@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         tw-AutoTask
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  try to take over the world!
 // @author       Hicsaymatamyirmidortharf
 // @updateURL    https://raw.githubusercontent.com/hicsaymatamyirmidortharf/jsjs/master/tw.js
@@ -18,7 +18,7 @@
 
     setInterval(function() {
         let date = new Date();
-        console.log( date.getHours()+"."date.getMinutes() + "interval fonk. çalıştı. " );
+        console.log( date.getHours()+"."+date.getMinutes() + "interval fonk. çalıştı. " );
         if (Character.energy < 12 && TaskQueue.queue.length <= 2) {
             HotelWindow.open(50);
             HotelWindow.start("cubby");
